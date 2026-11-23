@@ -1,5 +1,5 @@
 module.exports.cadastro = function (application, req, res) {
-  res.render("cadastro", { validacao: {}, dadosForm: {} });
+  res.render("cadastro", { validacao: [], dadosForm: [] });
 };
 
 module.exports.cadastrar = function (application, req, res) {
